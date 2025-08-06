@@ -1,0 +1,7 @@
+For a fixed stride value, as the size of memory allocated to a process increases(in pages), total mapped physical memory also increases.
+This means that number of pages allocated is directly proportional to mapped physical memory.
+
+For fixed number of pages, we observe that as the stride value increases, the mapped physical memory decreases.
+This happens because for large stride values, less writes to memory are done so number of physical pages mapped also reduces.
+This means that number of strides is inversely proportional to mapped physical memory.
+

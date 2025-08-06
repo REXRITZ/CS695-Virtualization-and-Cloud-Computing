@@ -1,0 +1,1 @@
+How to run the code is mentioned in individual directories 
